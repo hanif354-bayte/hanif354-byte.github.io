@@ -1,10 +1,10 @@
 .jumbotron {
   padding-top: 6rem;
-  background: linear-gradient(135deg, #d4fc79, #96e6a1); /* soft green gradient */
+  background: linear-gradient(135deg, #d4fc79, #96e6a1); /* gradasi hijau muda */
 }
 
 #projects {
-  background: linear-gradient(135deg, #e8f9f1, #fdfbfb); /* very light mint */
+  background: linear-gradient(135deg, #e2ffe9, #fdfbfb); /* hijau pastel */
 }
 
 section {
@@ -14,7 +14,7 @@ section {
 /* My Keyboard Section */
 .keyboard-box {
   position: relative;
-  background: linear-gradient(145deg, #56ab2f, #a8e063); /* green gradient */
+  background: linear-gradient(145deg, #a8e6cf, #56ab2f); /* hijau muda ke hijau segar */
   border-radius: 20px;
   height: 500px;
   transform-style: preserve-3d;
