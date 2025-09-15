@@ -23,16 +23,34 @@
       rel="stylesheet"
     />
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-
     <title>My Portfolio | Hanif Putra Agusta</title>
+
+    <style>
+      body {
+        padding-top: 70px;
+      }
+
+      .bg-green-light {
+        background: linear-gradient(135deg, #d4fc79, #96e6a1) !important;
+      }
+
+      .jumbotron {
+        padding-top: 6rem;
+        background: linear-gradient(135deg, #e2edff, #c9d6ff);
+      }
+
+      #projects {
+        background: linear-gradient(135deg, #e2edff, #fdfbfb);
+      }
+
+      section {
+        padding-top: 5rem;
+      }
+    </style>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top"
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green-light shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Hanif Putra Agusta</a>
         <button
@@ -157,7 +175,7 @@
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-success">Kirim</button>
             </form>
           </div>
         </div>
@@ -166,7 +184,7 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="bg-green-light text-white text-center pb-5">
       <p>
         Created with <i class="bi bi-heart-fill text-danger"></i> by
         <span class="fw-bold">Hanif Putra Agusta</span>
